@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
                 TODO
                 String: title_map
                 ID: navigation_map
+                Change Icon
                  */
                 case R.id.navigation_home:
                     mTextMessage.setText(R.string.title_home);
@@ -31,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
                 TODO
                 String: title_buildings
                 ID: navigation_buildings
+                Change Icon
                  */
                 case R.id.navigation_dashboard:
                     mTextMessage.setText(R.string.title_dashboard);
@@ -40,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
                 TODO
                 String: title_departments
                 ID: navigation_departments
+                Change Icon
                  */
                 case R.id.navigation_notifications:
                     mTextMessage.setText(R.string.title_notifications);
