@@ -17,33 +17,12 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public boolean onNavigationItemSelected(@NonNull MenuItem item) {
             switch (item.getItemId()) {
-                //changing to Map
-                /*
-                TODO
-                String: title_map
-                ID: navigation_map (Done)
-                Change Icon (done)
-                 */
                 case R.id.navigation_map:
                     mTextMessage.setText(R.string.title_map);
                     return true;
-                //changing to Buildings
-                /*
-                TODO
-                String: title_buildings
-                ID: navigation_buildings
-                Change Icon
-                 */
                 case R.id.navigation_buildings:
                     mTextMessage.setText(R.string.title_buildings);
                     return true;
-                //changing to Departments
-                /*
-                TODO
-                String: title_departments
-                ID: navigation_departments
-                Change Icon
-                 */
                 case R.id.navigation_departments:
                     mTextMessage.setText(R.string.title_departments);
                     return true;
