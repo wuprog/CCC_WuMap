@@ -44,8 +44,8 @@ public class MainActivity extends AppCompatActivity {
                 ID: navigation_departments
                 Change Icon
                  */
-                case R.id.navigation_notifications:
-                    mTextMessage.setText(R.string.title_notifications);
+                case R.id.navigation_departments:
+                    mTextMessage.setText(R.string.title_departments);
                     return true;
             }
             return false;
