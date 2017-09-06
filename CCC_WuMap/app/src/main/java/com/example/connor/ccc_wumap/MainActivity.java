@@ -21,11 +21,11 @@ public class MainActivity extends AppCompatActivity {
                 /*
                 TODO
                 String: title_map
-                ID: navigation_map
-                Change Icon
+                ID: navigation_map (Done)
+                Change Icon (done)
                  */
-                case R.id.navigation_home:
-                    mTextMessage.setText(R.string.title_home);
+                case R.id.navigation_map:
+                    mTextMessage.setText(R.string.title_map);
                     return true;
                 //changing to Buildings
                 /*
@@ -34,8 +34,8 @@ public class MainActivity extends AppCompatActivity {
                 ID: navigation_buildings
                 Change Icon
                  */
-                case R.id.navigation_dashboard:
-                    mTextMessage.setText(R.string.title_dashboard);
+                case R.id.navigation_buildings:
+                    mTextMessage.setText(R.string.title_buildings);
                     return true;
                 //changing to Departments
                 /*
